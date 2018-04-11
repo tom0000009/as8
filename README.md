@@ -16,7 +16,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijacking
 
 Vulnerability #2: __________________
 
@@ -43,7 +43,12 @@ python sqlmap.py --wizard
 never returned anything for the login pages or user editing pages in red, blue, and green when using the default settings
 anything beyond the defaults wouldn't work
 
-you can find information on employess not listed on the "Find a Salesperson" page
+you can hijack another session in blue by changing your phsessid
+was signed onto different accounts in firefox and chrome
+had firefox change its phsessid to match chrome's and then logged out
+refreshed the page on chrome and was logged out
+
+you can find information on employess not listed on the green "Find a Salesperson" page
 by visiting the page of one of listed employees and then changing the id on the address bar
 
 xss can be abuse using the feedback section in green 
