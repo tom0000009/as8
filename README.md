@@ -23,9 +23,9 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
 
 
 ## Red
@@ -38,3 +38,12 @@ Vulnerability #2: __________________
 ## Notes
 
 Describe any challenges encountered while doing the work
+
+python sqlmap.py --wizard
+never returned anything for the login pages or user editing pages in red, blue, and green when using the default settings
+anything beyond the defaults wouldn't work
+
+you can find information on employess not listed on the "Find a Salesperson" page
+by visiting the page of one of listed employees and then changing the id on the address bar
+
+xss can be abuse using the feedback section in green 
