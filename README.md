@@ -23,7 +23,7 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: Username Enumeration
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 
@@ -49,6 +49,6 @@ had firefox change its phsessid to match chrome's and then logged out
 refreshed the page on chrome and was logged out
 
 you can find information on employess not listed on the green "Find a Salesperson" page
-by visiting the page of one of listed employees and then changing the id on the address bar
+by visiting the page of one of listed employees and then changing the id on the address bar.(IDOR)
 
 xss can be abuse using the feedback section in green 
